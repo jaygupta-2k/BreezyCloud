@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/3.jpg);
+    background-size:cover;
+    
+}
+
+#delete_form{
+    border: 3px solid black;
+    top:50%;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    color: cyan;
+    
+}
+
+h2{
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+
+.gohome{
+    text-align: right;
+    float:right;
+    position: absolute;
+    margin: auto;
+    left: 3%;
+    top: 5%;
+    transition: 0.6s ease;
+}
+.gohome a{
+    background: transparent;
+    color: gold;
+    font-size: 30px; 
+    border: 2px solid blue;
+    background: black;
+    font-family: sans-serif;
+    
+}
+
+.gohome a:hover{
+    background: gold;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.goview{
+    text-align: right;
+    float:right;
+    position: absolute;
+    margin: auto;
+    left: 11%;
+    top: 5%;
+    transition: 0.6s ease;
+}
+.goview a{
+    background: transparent;
+    color: gold;
+    font-size: 30px; 
+    border: 2px solid blue;
+    background: black;
+    font-family: sans-serif;
+}
+
+.goview a:hover{
+    background: gold;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: blue;
+} 
+
+.btn{
+    border:1px solid white;
+    padding:10px 30px;
+    color:gold;
+    background: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: gold;
+    color:black;
+    cursor: pointer;
+}

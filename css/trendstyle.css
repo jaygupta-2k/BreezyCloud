@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.excel_sheet{
+    overflow: hidden;
+    background: black;
+    background-size: cover;
+    background-position: center;
+} 
+
+.gohome{
+    background: cyan;
+    text-align: right;
+    float:right;
+    position: absolute;
+    margin: auto;
+    right: 1.5%;
+    top: 85%;
+    transition: 0.6s ease;
+    font-size: 25px;
+    border: 3px solid red;
+    font-family: sans-serif;
+} 
+
+.gohome:hover{
+    background: gold;
+    color:black;
+}
+
+.gohome1{
+    background: cyan;
+    text-align: right;
+    float:right;
+    position: absolute;
+    margin: auto;
+    right: 1.5%;
+    bottom:-425%;
+    transition: 0.6s ease;
+    font-size: 25px;
+    border: 3px solid red;
+    font-family: sans-serif;
+}
+
+.gohome1:hover{
+    background: gold;
+    color:black;
+}
+
+.txt{
+    background: black;
+    color: gold;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 20px;
+}

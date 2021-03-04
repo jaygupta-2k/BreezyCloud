@@ -1,2 +1,2 @@
 # BreezyCloud
-DBMS project
+A weather records website with analytics 
